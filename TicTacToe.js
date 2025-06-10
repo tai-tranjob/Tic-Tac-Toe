@@ -120,7 +120,7 @@ function botMove() {
 }
 
 function evaluateBoard() {
-  return Math.random();
+  return Math.random(1,9);
 }
 
 function playerMove(location) {
